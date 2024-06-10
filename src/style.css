@@ -1,0 +1,74 @@
+:root {
+  --main-title-font: "Inter", sans-serif;
+}
+
+a:link,
+a:visited {
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover,
+a:active {
+  color: white;
+
+  text-decoration: none;
+}
+.navbar-collapse {
+  margin-right: 122px;
+  margin-top: 48px;
+}
+.logo {
+  margin-right: 160px;
+}
+
+.frame {
+  background-image: url(bg\ patterns.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center;
+  margin: 0px 300px 0px 300px;
+}
+
+.text {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  text-align: left;
+}
+.hero-text {
+  font-size: 64px;
+}
+.hero-text2 {
+  font-size: 24px;
+}
+.hire-button {
+  width: 206px;
+  height: 70px;
+  background-color: #0c0c0c;
+}
+
+.section2,
+.section4 {
+  margin-top: 145px;
+  margin-bottom: 145px;
+}
+.section1 {
+  width: 100%;
+}
+.form-control {
+  border: none;
+}
+.section4 {
+  font-family: "Handlee", cursive;
+}
+input:hover,
+input[type="text"]:focus {
+  border-color: transparent;
+  box-shadow: 0 0 0 1px black;
+}
